@@ -30,6 +30,8 @@ body {
 }
 
 .circular-image {
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 200px;
     border-radius: 50%;
     margin-right: 20px;
@@ -76,6 +78,18 @@ body {
 
 }
 
+.about{
+    /* background: url('Black-Screen.jpg'); */
+    height: 100vh;
+    background-color: black;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .home {
     height: 100vh;
     background: url('home1.jpg') no-repeat;
@@ -86,6 +100,7 @@ body {
     align-items: center;
 
 }
+
 
 .home-content {
     max-width: 600px;
@@ -235,6 +250,80 @@ body {
     justify-content: space-between;
     
 
+}
+
+
+
+
+
+
+
+.container{
+    padding-left: 80px;
+    
+}
+
+
+
+.f {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.h {
+    color: #0f2027;
+    text-align: center;
+}
+
+.b {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: wheat;
+    /* rgb(41, 57, 194) */
+    border: none;
+    border-radius: 4px;
+}
+
+.b:hover{
+    color: #000;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
 }
 
 
