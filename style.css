@@ -327,3 +327,24 @@ body {
 }
 
 
+
+.d{
+    text-align: center;
+}
+
+
+.download-button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; 
+    color: wheat; 
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    color: black;
+    background-color: white; 
+}
