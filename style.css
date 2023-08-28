@@ -25,35 +25,35 @@ body {
 
 }
 
-.skill{
-    
-        /* background: url('Black-Screen.jpg'); */
-        height: 100vh;
-        padding-top: 20%;
-        background-color: black;
-        padding: 0 10%;
-        /* display: flex; */
-        align-items: center;
-        text-align: center;
-        /* background-size: cover; */
-        /* background-position: center; */
-    }
+.skill {
 
-.p{
+    /* background: url('Black-Screen.jpg'); */
+    height: 100vh;
+    padding-top: 20%;
+    background-color: black;
+    padding: 0 10%;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+.p {
     text-align: center;
     padding: 2%;
 }
 
-.l{
+.l {
     padding-top: 8%;
     text-align: center;
 }
 
-.l:hover{
+.l:hover {
     color: #00abf0;
 }
 
-.m{
+.m {
     display: flex;
     padding-left: 20%;
     text-align: center;
@@ -65,18 +65,20 @@ body {
 
 
 
-.headings{
+.headings {
     text-align: center;
     padding-right: 2%;
 }
 
-.headings:hover{
+.headings:hover {
     color: #00abf0;
 }
-.heading{
+
+.heading {
     padding-right: 2%;
 }
-.heading:hover{
+
+.heading:hover {
     color: #00abf0;
 }
 
@@ -96,12 +98,12 @@ body {
 
 }
 
-.card :hover{
+.card :hover {
     opacity: 0.8;
     color: #081b29;
 }
 
-.card-body :hover{
+.card-body :hover {
     color: #00abf0;
 
 }
@@ -129,7 +131,7 @@ body {
 
 }
 
-.about{
+.about {
     /* background: url('Black-Screen.jpg'); */
     height: 100vh;
     background-color: black;
@@ -169,12 +171,12 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
-    
+
 }
 
 .home-content p {
     font-size: 16px;
-    margin: 20px 0 40px ;
+    margin: 20px 0 40px;
 
 }
 
@@ -295,11 +297,11 @@ body {
 
 
 
-.footer{
+.footer {
     background-color: burlywood;
     text-align: center;
     justify-content: space-between;
-    
+
 
 }
 
@@ -309,9 +311,9 @@ body {
 
 
 
-.container{
+.container {
     padding-left: 80px;
-    
+
 }
 
 
@@ -341,7 +343,7 @@ body {
     border-radius: 4px;
 }
 
-.b:hover{
+.b:hover {
     color: #000;
 }
 
@@ -352,11 +354,11 @@ body {
 
 .input-control input {
     border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 100%;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
 }
 
 .input-control input:focus {
@@ -379,7 +381,7 @@ body {
 
 
 
-.d{
+.d {
     text-align: center;
 }
 
@@ -389,15 +391,15 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: black; 
-    color: wheat; 
+    background-color: black;
+    color: wheat;
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }
 
 .download-button:hover {
     color: black;
-    background-color: white; 
+    background-color: white;
 }
 
 
@@ -440,15 +442,21 @@ body {
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
-    color: #00abf0; /* Text color */
+    color: #00abf0;
+    /* Text color */
     font-weight: bold;
 }
 
-.progress-text:hover{
+.progress-text:hover {
     color: wheat;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
